@@ -83,7 +83,7 @@
   <section id="summary">
     <h2>In short</h2>
     <p>TipFlow is an iPhone app for tracking tips, pay and expenses, made by Brett Schuber. It keeps your records on your iPhone. There is no account to make, no ads, no analytics and no tracking, and TipFlow has no servers of its own, so nothing you enter is sent to us.</p>
-    <p>If you back up to iCloud, a copy goes to your own iCloud account, which we cannot see. Apart from that backup and files you export yourself, the only time anything leaves the phone is Voice Entry on an iPhone that can’t recognize speech by itself — see <a href="#microphone">Microphone and speech recognition</a>.</p>
+    <p>If you back up to iCloud, a copy goes to your own iCloud account, which we cannot see. Apart from that backup and files you export yourself, nothing leaves the phone.</p>
   </section>
 
   <section id="stores">
@@ -99,13 +99,13 @@
       <li>your settings, such as appearance, Face ID lock and backup</li>
       <li>things you’ve deleted, for 30 days, in Recently deleted</li>
     </ul>
-    <p>Deleting the app deletes all of this from your iPhone. Like any app’s data, it is also part of your iPhone’s own device backup (iCloud Backup or a computer backup) if you use one.</p>
+    <p>Deleting the app deletes all of this from your iPhone, but not your iCloud copy (below). If you reinstall TipFlow on a phone signed in to the same Apple Account, it offers to restore from that copy when it first opens. Like any app’s data, it is also part of your iPhone’s own device backup (iCloud Backup or a computer backup) if you use one.</p>
   </section>
 
   <section id="backup">
     <h2>Backups</h2>
     <h3>On your iPhone</h3>
-    <p>TipFlow keeps a backup of your records inside its own storage on the phone, along with a few earlier versions, so a mistake can be undone. These are deleted with the app.</p>
+    <p>TipFlow keeps a backup of your records inside its own storage on the phone, along with a few earlier versions, so a mistake can be undone. These are deleted with the app; your iCloud copy is not.</p>
     <h3>In your iCloud</h3>
     <p>With <span class="path">Settings › Backup › Back up to iCloud</span> on, TipFlow also keeps a copy in its folder in your iCloud Drive, which the Files app shows as <span class="path">iCloud Drive › TipFlow</span>. It is on by default when you’re signed in to iCloud with iCloud Drive turned on.</p>
     <ul>
@@ -132,7 +132,7 @@
 
     <h3 id="microphone">Microphone and speech recognition</h3>
     <p>For Voice Entry only, where you log a shift by answering questions out loud. The microphone is used only while Voice Entry is open, and TipFlow does not save the recording; it keeps only the answers it fills into the entry.</p>
-    <p>If your iPhone can recognize speech by itself, TipFlow requires it to, and your voice stays on the phone. If it can’t — on some older iPhones, or when the phone’s speech model isn’t available — iOS sends the audio to Apple’s speech recognition service to be turned into text, along with the names of your saved workplaces as hints for some questions. Apple handles that under its own privacy policy; it never reaches us. If you’d rather it didn’t leave the phone, enter shifts by hand instead.</p>
+    <p>Speech is turned into text on your iPhone itself, and never sent to Apple or anyone else. If your iPhone can’t do that, Voice Entry isn’t offered and you type the entry instead.</p>
 
     <h3>Face ID</h3>
     <p>The Face ID lock is off unless you turn it on, during setup or in <span class="path">Settings › Privacy › Face ID lock</span>. Your iPhone checks your face (or Touch ID or your passcode, where Face ID isn’t available) and tells TipFlow only whether it matched. TipFlow never sees your face or fingerprint.</p>
@@ -158,7 +158,7 @@
       <li><strong>Stop backing up to iCloud:</strong> turn off <span class="path">Settings › Backup › Back up to iCloud</span>. Copies already in iCloud stay until you delete them.</li>
       <li><strong>Delete the iCloud copies:</strong> in the Files app under <span class="path">iCloud Drive › TipFlow</span>, or in the iPhone’s Settings app under your name › iCloud, in the storage list.</li>
       <li><strong>Delete a record:</strong> a deleted shift, bill, goal or workplace goes to <span class="path">Settings › Recently deleted</span> for 30 days, where you can bring it back, and is then removed for good. Backups made before you deleted it still hold it until they are replaced or deleted.</li>
-      <li><strong>Delete everything on the phone:</strong> delete the app.</li>
+      <li><strong>Delete everything on the phone:</strong> delete the app. Your iCloud copy stays, so you can restore it if you reinstall. To remove that too, delete the iCloud copies as above.</li>
       <li><strong>Permissions:</strong> change them any time in the iPhone’s Settings app under TipFlow.</li>
     </ul>
   </section>
